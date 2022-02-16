@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="flex__use">
+    <main class="rounded__corners">
+      <article class="card">
+        <div class="card__header bottom__space">
+          <figure class="card__figure">
+            <div
+              class="card__figure--overlay rounded__corners ease__in finger__pointer"
+            ></div>
+            <img
+              src="./images/image-equilibrium.jpg"
+              alt="clear colorful cube"
+              class="rounded__corners"
+            />
+          </figure>
+        </div>
+
+        <div class="card__body bottom__space">
+          <h1 class="card__title white ease__in finger__pointer bottom__space">
+            Equilibrium #3429
+          </h1>
+          <p class="card__copy bottom__space">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex__between flex__use">
+            <p class="card__copy--highlight flex__use">
+              <img
+                src="./images/icon-ethereum.svg"
+                alt=""
+                class="card__icons--ethereum"
+              />
+              <span class="card__subtitle">0.041 ETH</span>
+            </p>
+            <p class="flex__use">
+              <img
+                src="./images/icon-clock.svg"
+                alt=""
+                class="card__icons--clock"
+              />
+              <span class="card__subtitle">3 days left</span>
+            </p>
+          </div>
+        </div>
+        <footer class="bottom__space">
+          <div>
+            <figure class="flex__use">
+              <img
+                src="./images/image-avatar.png"
+                alt="a headshot of Jules Wyvern"
+                class="card__avatar"
+              />
+              <figcaption>
+                Creation of
+                <span class="card__author ease__in finger__pointer"
+                  >Jules Wyvern</span
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="white"
+        >Frontend Mentor</a
+      >. Coded by <a class="white" href="#">Brian Johnson</a>.
+    </div>
+  </body>
+</html>
